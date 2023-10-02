@@ -1071,7 +1071,7 @@ $(window).resize(function() {
 
 /*--------- End js for left-column -------------*/
 
-var max_link = 4;
+var max_link = 89;
 var items = $('.navbar.navbar-full .navbar-nav > .nav-item');
 var surplus = items.slice(max_link, items.length);
 surplus.wrapAll('<li class="more_menu nav-item dropdown"><ul class="menu-dropdown cat-drop-menu">');
